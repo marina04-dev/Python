@@ -1,0 +1,9 @@
+array = []
+rows = int(input("Give the number of rows: "))
+columns = int(input("Give the number of columns: "))
+for i in range(rows):
+    array.append([])
+    for j in range(columns):
+        elem = int(input("Give "+str(i)+","+str(j)+ " element: "))
+        array[i].append(elem)
+print(array)
