@@ -17,3 +17,11 @@ for row in array:
     for elem in row:
         print(elem, end=" ")
     print(" ")
+
+#exercise_6_video45
+array = [[1,2,3,3],[4,5,6,5],[7,8,9,0]]
+array.insert(0,[0,0,0,0])
+print(array)
+for row in array:
+    row.append(1)
+print(array)
