@@ -12,4 +12,9 @@ for char in my_list:
     
 print(chars)
 
+max_value = max(chars.values())
 print(max(chars.values()))
+
+for key,value in chars.items():
+    if value == max_value:
+        print(key)
