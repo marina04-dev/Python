@@ -1,0 +1,4 @@
+def larger_number(*args):
+    print(max(args))
+    
+nums = larger_number(20,30,1,90,56)
