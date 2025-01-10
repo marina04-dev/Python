@@ -14,3 +14,5 @@ def print_details(*args,**kwargs):
         else:
             dictionary[value] = 1
     print(dictionary)
+    
+print_details(5,8,13,Banner="Discrete Mathematics", Kane="Discrete Mathematics", Stark="Programming")
