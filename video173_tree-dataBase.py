@@ -37,3 +37,12 @@ class Tree:
         rec_str(self.root)
         return st 
             
+            
+t = Tree()
+t.insert_root("A")
+t.insert_left(t.root, "B")
+t.insert_right(t.root, "C")
+t.insert_left(t.root.left, "D")
+t.insert_right(t.root.left, "E")
+t.insert_right(t.root.right, "F")
+print(t)
