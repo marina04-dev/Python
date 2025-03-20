@@ -1,9 +1,0 @@
-# exercise_11-call_by_reference_in_python
-def f(arg):
-    arg = 5
-    return arg
-    
-    
-x = 4
-x = f(x)
-print(x)
